@@ -187,6 +187,79 @@ a:active {
   margin: 20px 7.5px 20px 7.5px;
 }
 
+.profile_row_1{
+  max-width: 100%;
+  max-height: 200px !important;
+  background-image: url("header1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  padding-bottom: 50%;
+}
+
+.profile_row_2{
+  max-width: 100%;
+  max-height: 200px !important;
+  background-image: url("header4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  padding-bottom: 50%;
+}
+
+.profile_row_3{
+  max-width: 100%;
+  max-height: 200px !important;
+  background-image: url("header3.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  padding-bottom: 50%;
+}
+
+.profile_div{
+  width: 100%;
+  text-align: center;
+}
+
+.profile_header{
+  font-size: 5em;
+  text-align: center;
+  padding: 20% 0 20% 0;
+  color: white;
+}
+
+.profile_img{
+  border-radius: 200px;
+  height: 350px;
+  width: 350px;
+}
+
+.profile_left{
+  float: left;
+  width: 30%;
+  height: 400px;
+  margin: 5% 2.5% 5% 2.5%;
+}
+
+.profile_right{
+  float: right;
+  width: 60%;
+  margin: 8% 2.5% 5% 2.5%;
+}
+
+.name{
+  font-size: 250%;
+}
+
+.social{
+  height: 30px;
+  width: 30px;
+  margin: 2% 0 2% 0;
+}
+
+.intro{
+  font-size: 130%;
+  width: 100%;
+}
+
 .contact_row{
   max-width: 100%;
   max-height: 200px !important;
@@ -236,16 +309,36 @@ a:active {
 }
 
 @media all and (max-width:1250px){
-  .col_3{
-    width: 50% !important;
-    margin: 20px 25% 20px 25% !important;
-  }
+
+.col_2{
+  width: 100% !important;
 }
 
+.col_3{
+  width: 50% !important;
+  margin: 20px 25% 20px 25% !important;
+}
+}
+
+@media all and (max-width:1250px){
+.profile_left{
+  width: 100% !important;
+  margin: 5% 0 0 0 !important;
+}
+
+.profile_right{
+  margin: 0% 20% 5% 20% !important;
+  text-align: center !important;
+}
+
+.name{
+  text-align: center !important;
+}
+}
 
 @media all and (max-width:980px){
 
-  .header-links{
+.header-links{
   padding-top: 10px !important;
  }
 
@@ -267,12 +360,12 @@ a:active {
 }
 
 @media all and (max-width:750px){
-  .col_3{
-    width: 100% !important;
-    margin: 5px 0 5px 0 !important;
-  }
+.col_3{
+  width: 100% !important;
+  margin: 5px 0 5px 0 !important;
+}
 
-  .nav_right{
+.nav_right{
   display: none !important;
 }
 
@@ -292,7 +385,22 @@ a:active {
   font-size: 4em !important;
 }
 
+.profile_right{
+  margin: -10% 0% 5% 0% !important;
+  width: 100% !important;
+  padding: 0 50px 0 50px !important;
+}
+
+.profile_img{
+  height: 300px !important;
+  width: 300px !important;
+}
+
 .contact_header{
+  font-size: 4em !important;
+}
+
+.profile_header{
   font-size: 4em !important;
 }
 
@@ -302,20 +410,43 @@ a:active {
 }
 
 .submit_btn{
-  width: 20%;
-  height: 30px;
+  width: 20% !important;
+  height: 30px !important;
 }
 }
 
 @media all and (max-width:500px){
 
-  .home_links{
+.home_links{
   padding: 15% 0  15% 0 !important;
 }
 
 .contact_header{
-  font-size: 5em;
+  font-size: 5em !important;
   padding: 15% 0  15% 0 !important;
+}
+
+.profile_header{
+  font-size: 5em !important;
+  padding: 15% 0 15% 0 !important;
+}
+
+.profile_left{
+  height: 300px !important;
+}
+
+.profile_right{
+  float: none !important;
+  margin: 0% 0% 5% 0% !important;
+  width: 100% !important;
+  padding: 0 15px 0 15px !important;
+  text-align: center !important;
+  font-size: 90% !important;
+}
+
+.profile_img{
+  height: 280px !important;
+  width: 280px !important;
 }
 
 .submit_btn{
@@ -324,7 +455,7 @@ a:active {
 
 .form_div{
   margin: 15% 0 15% 0 !important;
- height: 240px !important; 
+  height: 240px !important; 
 }
 
 }
