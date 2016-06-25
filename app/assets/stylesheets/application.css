@@ -63,6 +63,31 @@
   background-color: #262626;
 }
 
+.mobile_nav{
+  display: none;
+}
+
+#toggle { 
+  font-size: 30px;
+}
+
+nav {
+  background-color: #262626;
+  text-align: center;
+}
+
+nav ul { 
+  display: none; 
+}
+
+a { 
+  color: #ccc; text-decoration: none; 
+}
+
+.mobile_links{
+  font-size: 140%;
+}
+
 .nav_left{
   float: left;
   text-align: left !important;
@@ -365,14 +390,12 @@ a:active {
   margin: 5px 0 5px 0 !important;
 }
 
-.nav_right{
+.nav{
   display: none !important;
 }
 
-  .nav_left{
-  text-align: center !important;
-  width: 100% !important;
-  font-size: 120%;
+.mobile_nav{
+  display: block !important;
 }
 
 .footer-links a{

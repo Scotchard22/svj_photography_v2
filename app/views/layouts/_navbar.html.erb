@@ -17,3 +17,25 @@
     </div>  
   </div>  
 </div>  
+
+<div class="mobile_nav">
+  <nav role='navigation'>
+      <a href="#" id="toggle">=SVJ Photography=</a>
+    <ul>
+      <li class="mobile_links"><%= link_to "Home", root_path %></li>
+      <li class="mobile_links"><%= link_to "Gallery", gallery_path %></li>
+      <li class="mobile_links"><%= link_to "Scot", scot_path %></li>
+      <li class="mobile_links"><%= link_to "Vlad", vlad_path %></li>
+      <li class="mobile_links"><%= link_to "Justin", justin_path %></li>
+      <li class="mobile_links"><%= link_to "Contact", contact_path %></li>
+    </ul>
+  </nav>
+</div>
+
+<script>
+  $('nav a#toggle').click(function() {
+  $('ul').slideToggle(200, function() {
+    // Animation complete.
+  });
+});
+</script>
