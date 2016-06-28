@@ -197,6 +197,12 @@ a:active {
   width: 100%;
 }
 
+.main_home{
+  text-align: center;
+  height: 550px;
+  width: 100%;
+ }
+
 .home_links{
   padding: 20% 0  20% 0;
 }
@@ -306,8 +312,15 @@ a:active {
   color: white;
 }
 
+#contact_header{
+  font-size: 2em;
+  text-align: center;
+  color: #7C7877;
+  padding: 0 0 55px 0;
+}
+
 .form_div{
-  height: 200px;
+  height: 280px;
   margin: 5% 0 10% 0;
 }
 
@@ -336,6 +349,19 @@ a:active {
   background-color: white;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 0px 5px 5px 0px grey;
+}
+
+#thanks_header{
+  color: #F16B6F;
+  font-size: 240%;
+  padding-top: 220px;
+}
+
+
+#thanks_para{
+  color: #7C7877;
+  font-size: 120%;
+  padding-top: 15px;
 }
 
 @media all and (max-width:1250px){
@@ -387,6 +413,28 @@ a:active {
   padding-right: 20px !important;
   font-size: 150% !important;
  }
+
+ .form_div{
+  height: 350px !important;
+  margin: 10% 0 10% 0 !important;
+}
+
+.main_home{
+  width: 100% !important;
+  height: 570px !important;
+ }
+
+ #thanks_header{
+  font-size: 250% !important;
+  padding-top: 220px !important;
+}
+
+
+#thanks_para{
+  font-size: 160% !important;
+  padding-top: 15px !important;
+}
+
 }
 
 @media all and (max-width:750px){
@@ -433,13 +481,24 @@ a:active {
 }
 
 .form_div{
-  height: 250px !important;
-  margin: 10% 0 10% 0 !important;
+  margin: 23% 0 8% 0 !important;
+  height: 420px !important; 
 }
 
 .submit_btn{
   width: 20% !important;
   height: 30px !important;
+}
+
+ #thanks_header{
+  font-size: 240% !important;
+  padding-top: 220px !important;
+}
+
+
+#thanks_para{
+  font-size: 140% !important;
+  padding-top: 15px !important;
 }
 }
 
@@ -482,8 +541,8 @@ a:active {
 }
 
 .form_div{
-  margin: 15% 0 15% 0 !important;
-  height: 240px !important; 
+  margin: 23% 0 8% 0 !important;
+  height: 420px !important; 
 }
 
 }

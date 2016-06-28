@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   get '/scot', to: 'static_pages#scot', as: 'scot'
   get '/gallery', to: 'static_pages#gallery', as: 'gallery'
   get '/contact', to: 'static_pages#contact', as: 'contact'
+
+  resources :contacts, only: [:new, :create]
 end
